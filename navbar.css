@@ -1,0 +1,32 @@
+
+nav
+{
+	display: flex;              /* Makes list items display horizontally */
+  	gap: 1rem;                  /* Adds space between items */
+  	background-color: #1e293b;  /* Dark background */
+  	padding: 1rem;				/* Pushes the content away from edge of all container*/
+	background-color: #f1f1f1;  /* Set white Smoke color*/
+	float: right;
+	overflow: none;
+
+}
+/* Remove the defaul settings of the link*/
+.nav a 
+	{
+		display: block;         /* Create the block on link item */
+		color: #000;			/* Set color black on text*/
+		padding: 8px 16px;		/* Create the space between text and edge of inner container */
+		text-decoration: none;  
+	}
+/* Change the link color upon moving mouse - hover*/
+.nav a:hover
+	{
+		background-color: #555;
+		color: white;
+	}
+/*Shows active link*/
+.active
+	{
+		background-color: #555;
+		color: white;
+	}

@@ -1,0 +1,61 @@
+*     {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      }
+
+body  {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+      text-align: center;
+      }
+
+ .header 
+      {
+      display: flex;                /* Aligns children in a row */
+      align-items: center;          /* All Item should be on center on vertical Manner*/
+      background-color: #1e293b;
+      color: white;
+      padding: 1rem 2rem;
+      }
+
+    .main {
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      gap: 1rem;
+      padding: 2rem;
+      flex: 1;
+      background-color: #ffffff;
+    }
+
+    .sidebar {
+      background-color: #e2e8f0;
+      padding: 1rem;
+      border-radius: 0.5rem;
+    }
+
+    .content {
+      background-color: #f8fafc;
+      padding: 1.5rem;
+      border-radius: 0.5rem;
+    }
+
+    .footer {
+      background-color: #1e293b;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    /* Responsive Design to control design in Multiple devices */
+    @media (max-width: 768px) {
+      main {
+        grid-template-columns: 1fr;
+      }
+
+      nav {
+        flex-direction: column;
+      }
+    }

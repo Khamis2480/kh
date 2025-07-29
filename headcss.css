@@ -1,0 +1,7 @@
+.logo {
+  width: 150px;         /* Set desired width */
+  height: auto;         /* Keep image proportional */
+  display: block;       /* Removes extra space under image */
+  margin-right: 1rem;   /* Space between logo and text */
+  border-radius: 15%;   /* Control the border edges */
+}
